@@ -1,0 +1,35 @@
+const UnitList = [
+  {make: "Harley Davidson", type: "motorcyle", year: "2019"},
+  {make: "Jayco", type: "Motorhome", year: "2018"},
+  {make: "John Deere", type: "Tractor", year: "2039"},
+  {make: "John Deere", type: "Combine", year: "2017"},
+  {make: "Vanderhall", type: "Trike", year: "2018"},
+  {make: "Coachmen", type: "Motorhome", year: "2050"},
+  {make: "Brent", type: "Combine", year: "2017"},
+];
+
+function thisiscrazy (UnitList) {
+	var make[];
+	var type[];
+	var year[];
+	var Ulen;
+	var specialValue[];
+	
+	Ulen = UnitList.lenght;
+	
+	for (i = 0; i < Ulen; i++){
+		
+	make[i] = UnitList[i]["make"];
+	type[i] = UnitList[i]["type"];
+	year[i] = UnitList[i]["year"];
+	
+		if (year[i]>=2039){
+			specialValue[i] = "Future tech";
+		}
+		else{
+			specialValue[i] = "Contemporary";
+		}
+	}
+	
+	
+}
