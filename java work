@@ -1,0 +1,35 @@
+var test = ["9", "6252", "BMW","*"];
+
+
+
+function crazy (test, index){
+	
+	switch(typeof test[index] ){
+		
+		case "number":
+		
+			test[index]="1";
+			
+			break;
+		
+		case "string":
+		
+			test[index] = "2";
+			
+			break;
+			
+		case "undefined":
+		
+			test[index] = "0";
+			
+			break;
+			
+		default:
+		
+			test[index] = "-1";
+		
+		
+	}
+	return test[];
+	
+}
